@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Alunos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sistema de Alunos</h1>
+    <p class="subtitulo">Cadastro, consulta e média de notas com MongoDB</p>
+
+    <div class="bloco">
+      <h2>Cadastrar aluno</h2>
+      <input id="nome" placeholder="Nome do aluno">
+      <input id="turma" placeholder="Turma">
+      <input id="notas" placeholder="Notas (ex: 7,8,9)">
+      <button onclick="cadastrar()">Cadastrar</button>
+    </div>
+
+    <div class="bloco">
+      <h2>Buscar por turma</h2>
+      <div class="linha">
+        <input id="buscaTurma" placeholder="Digite a turma">
+        <button onclick="buscar()">Buscar</button>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <h2>Média das notas</h2>
+      <button class="btn-media" onclick="media()">Calcular média</button>
+    </div>
+
+    <div class="bloco">
+      <h2>Resultado</h2>
+      <div id="resultado"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

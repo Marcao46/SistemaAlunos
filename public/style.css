@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    background-image: url('./img/fundoescola.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100% ;
+    min-height: 100vh;
+}
+.container {
+  width: 400px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+
+}
+
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+#resultado {
+  margin-top: 15px;
+  background: #f1f5f9;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  max-height: 200px;
+  overflow-y: auto;
+}.acoes {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.btn-editar,
+.btn-excluir {
+  flex: 1;
+  width: auto;
+  margin-top: 0;
+}
+
+.btn-editar {
+  background: #f59e0b;
+}
+
+.btn-editar:hover {
+  background: #d97706;
+}
+
+.btn-excluir {
+  background: #dc2626;
+}
+
+.btn-excluir:hover {
+  background: #b91c1c;
+}
